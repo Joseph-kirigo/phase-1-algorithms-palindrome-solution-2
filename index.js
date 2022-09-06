@@ -1,6 +1,13 @@
 function isPalindrome(word) {
   // Write your algorithm here
+  for (let i = 0; i < word.length; i++) {
+    let j= word.length-1-i;
+
+    return word[i]===word[j] 
+    }
+  return true
 }
+
 
 /* 
   Add your pseudocode here
